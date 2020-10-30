@@ -35,6 +35,10 @@ while True:
     if each word == "hungry":
       feelings_list.append("hungry")
       encouragement_list.append("eating is very important")
+     if each_word == "bored":
+      feelings_list.append("bored")
+      encouragement_list.append("go find something interesting to play with")
+      counter += 1
       
   if counter == 0:
     
